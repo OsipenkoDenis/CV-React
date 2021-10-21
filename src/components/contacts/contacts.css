@@ -1,0 +1,10 @@
+.contacts-list__link {
+    text-decoration: none;
+    color: grey;
+}
+
+.contacts-list__link:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}

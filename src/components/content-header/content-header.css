@@ -1,0 +1,25 @@
+.header-content {
+    border-bottom: #eff0f2 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-content__photo {
+    border: transparent 1 px solid;
+    border-radius: 100px;
+    width: 200px;
+    position: relative;
+    top: -100px;
+}
+
+.header-content__title {
+    position: relative;
+    top: -50px;
+}
+
+.header-content__subtitle {
+    position: relative;
+    top: -30px;
+}
