@@ -1,0 +1,40 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Questrial', sans-serif
+
+.mainPageContainer
+    max-width: 1480px
+    margin: 0 auto
+
+.mainPageContainer__content
+    display: flex
+    flex-direction: row
+
+@mixin mainPageContainer($w, $ml, $mb)
+    width: $w
+    margin-left: $ml
+    margin-bottom: $mb
+
+.mainPageContainer__leftPart
+    border-right: #eff0f2 1px solid
+    @include mainPageContainer(50%, 20px, 30px)
+
+.mainPageContainer__rightPart
+    @include mainPageContainer(50%, 20px, 30px)
+
+@mixin marginTop($mg)
+    margin-top: $mg
+
+.mainPageContainer__leftPart
+    h3
+        @include marginTop(15px)
+
+.mainPageContainer__rightPart
+    h3
+        @include marginTop(15px)
+
+.mainPageContainer__content
+    ul
+        padding-left: 15px

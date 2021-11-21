@@ -1,8 +1,10 @@
 .header__background {
-    background-color: #ced7df;
-    height: 200px;
+  background-color: #ced7df;
+  height: 200px;
 }
 
 .header {
-    position: relative;
+  position: relative;
 }
+
+/*# sourceMappingURL=header.css.map */
