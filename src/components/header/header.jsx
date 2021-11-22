@@ -4,11 +4,11 @@ import ContentHeader from "../content-header/content-header";
 
 
 const Header = () => {
-    return (
-        <header className="header">
-            <div className="header__background"></div>
-            <ContentHeader />
-        </header>
-    );
-}
+	return (
+		<header className="header">
+			<div className="header__background"></div>
+			<ContentHeader />
+		</header>
+	);
+};
 export default Header;

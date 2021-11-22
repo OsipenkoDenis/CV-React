@@ -1,14 +1,11 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
-        "node": true
+        "es2021": true
     },
     "extends": [
-        "plugin:react/recommended",
-        "airbnb",
-        "plugin:prettier/recommended",
-        "prettier"
+        "eslint:recommended",
+        "plugin:react/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -18,28 +15,25 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react", 
-        "only-warn", 
-        "prettier"
+        "react", "only-warn"
     ],
     "rules": {
-        "no-tabs":"off",
-        "eol-last":"off",
-        "no-param-reassign":"off",
-        "quotes":["error", "double"],
-        "linebreak-style": ["error", "windows"],
-        "arrow-body-style":"off",
-        "indent":"off",
-        "keyword-spacing":"off",
-        "react/jsx-indent-props": "off",
-        "react/jsx-indent" : ["error", 4],
-        "react/function-component-definition": "off",
-        "prettier/prettier": [
+        "indent": [
             "error",
-            {
-              "endOfLine": "auto"
-            }
-          ],
-        "no-confusing-arrow": "off"
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "react/prop-types":"off"
     }
 }
